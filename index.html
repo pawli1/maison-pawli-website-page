@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maison Pawli Boutique Realty</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              serif: ['Playfair Display', 'serif'],
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              gold: {
+                50: '#fdfbf7',
+                100: '#f9f4e8',
+                200: '#f1e6c8',
+                300: '#e5d09e',
+                400: '#d7b471',
+                500: '#c29243', // Brand Gold
+                600: '#ae7c38',
+                700: '#91632f',
+                800: '#754f2b',
+                900: '#614227',
+              },
+              luxury: {
+                dark: '#1a1a1a',
+                slate: '#2d3436',
+                cream: '#faf9f6',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #faf9f6;
+        color: #1a1a1a;
+      }
+      .scroll-smooth {
+        scroll-behavior: smooth;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4",
+    "@google/genai": "https://esm.sh/@google/genai@^1.40.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+  }
+}
+</script>
+</head>
+  <body class="scroll-smooth">
+    <div id="root"></div>
+  </body>
+</html>
