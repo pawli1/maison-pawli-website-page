@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { PricingPackage, SellingStep } from './types';
+import { PricingPackage, SellingStep } from './types.ts';
 import { 
   Home, 
   Camera, 

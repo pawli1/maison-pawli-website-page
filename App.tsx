@@ -1,12 +1,11 @@
-
 import React from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import ProcessTimeline from './components/ProcessTimeline';
-import PricingSection from './components/PricingSection';
-import GeminiConcierge from './components/GeminiConcierge';
-import ContactForm from './components/ContactForm';
-import Footer from './components/Footer';
+import Header from './components/Header.tsx';
+import Hero from './components/Hero.tsx';
+import ProcessTimeline from './components/ProcessTimeline.tsx';
+import PricingSection from './components/PricingSection.tsx';
+import GeminiConcierge from './components/GeminiConcierge.tsx';
+import ContactForm from './components/ContactForm.tsx';
+import Footer from './components/Footer.tsx';
 
 const App: React.FC = () => {
   return (

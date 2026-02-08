@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { SELLING_STEPS, ICON_MAP } from '../constants';
+import { SELLING_STEPS, ICON_MAP } from '../constants.tsx';
 
 const ProcessTimeline: React.FC = () => {
   return (

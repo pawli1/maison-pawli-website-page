@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Check } from 'lucide-react';
-import { PRICING_PACKAGES } from '../constants';
+import { PRICING_PACKAGES } from '../constants.tsx';
 
 const PricingSection: React.FC = () => {
   const scrollToContact = () => {
